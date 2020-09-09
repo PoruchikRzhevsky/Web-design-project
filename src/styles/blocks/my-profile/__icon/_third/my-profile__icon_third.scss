@@ -1,0 +1,14 @@
+.my-profile__icon_third {
+    width: 53px;
+    height: 36px;
+
+    transform: scale(1.2) translate(-125%, 1330%) rotate(155deg);
+
+    	@media (max-width: $screen--medium) {
+            transform: scale(1.2) translate(310%, 1200%) rotate(155deg);
+        }
+
+    	@media (max-width: $screen--very-small) {
+        	transform: scale(.6) translate(-395%, 105%) rotate(150deg);
+        }
+}

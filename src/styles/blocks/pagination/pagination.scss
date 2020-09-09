@@ -1,0 +1,16 @@
+.pagination {
+    display: none;
+
+    min-width: 114px;
+
+    	@media (max-width: $screen--medium) {
+    		display: block;
+
+        	margin-bottom: 94px;
+    	}
+    	
+    	@media (max-width: $screen--very-small) {
+            min-width: 62px;
+            margin-bottom: 40px;
+    	}
+}

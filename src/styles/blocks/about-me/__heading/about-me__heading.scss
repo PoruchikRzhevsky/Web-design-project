@@ -1,0 +1,13 @@
+.about-me__heading {
+    font-size: $font-size__heading;
+    line-height: $line-height__heading;
+
+    margin: 0;
+
+    text-align: center;
+
+	    @media (max-width: $screen--very-small) {
+            font-size: $font-size--default;
+            line-height: $line-height__heading--small;   	
+	    }
+}

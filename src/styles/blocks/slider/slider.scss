@@ -1,0 +1,19 @@
+.slider {
+    overflow: hidden;
+
+    width: 100%;
+    margin-bottom: 95px;
+
+    @media (max-width: $screen--large) {
+        width: 794px;
+    }
+
+    @media (max-width: $screen--medium) {
+        width: 100%;
+        margin-bottom: 99px;
+    }
+
+    @media (max-width: $screen--very-small) {
+        margin-bottom: 37px;
+    }
+}

@@ -1,0 +1,14 @@
+.button_color_orange {
+    font-size: $font-size__button;
+
+    color: $color-bgr--white;
+    background-color: $color-button--red;
+    
+    &:hover {
+    	background-color: $color-button--hover;
+    }
+
+    &:focus {
+    	background-color: $color-button--hover;
+    }    
+}

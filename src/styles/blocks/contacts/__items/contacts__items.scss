@@ -1,0 +1,30 @@
+.contacts__items {
+    font-size: $font-size__items;
+    font-style: normal;
+
+    margin-bottom: 35px;
+    padding-left: 40px;
+
+    text-align: left;
+
+    color: $text-color--black;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+
+    	@media (max-width: $screen--medium) {
+    		padding-left: 42px;
+
+        	background-position: 1% 50%;
+    	}
+        
+        @media (max-width: $screen--very-small) {
+            font-size: $font-size__heading;
+
+            padding-left: 32px;
+
+            text-align: start;
+
+            background-position: 0 50%;
+            background-size: 6%;            
+        }
+}

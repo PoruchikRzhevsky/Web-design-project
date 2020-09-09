@@ -1,0 +1,13 @@
+.my-profile__title {
+    line-height: 100px;
+
+    display: block;
+
+    margin-bottom: -4px;
+
+    	@media (max-width: $screen--very-small) {
+	        line-height: $line-height__title--small;
+
+	        margin-bottom: 1px;        	
+        }
+}

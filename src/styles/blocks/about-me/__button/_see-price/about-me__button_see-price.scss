@@ -1,0 +1,13 @@
+.about-me__button_see-price {
+    padding: 18px 60px;
+
+    	@media (max-width: $screen--medium) {
+    		padding: 22px 85px;	
+    	}
+
+	    @media (max-width: $screen--very-small) {
+            font-size: $font-size--default;
+
+            padding: 16px 72px;   	
+	    }
+}

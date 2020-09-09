@@ -1,0 +1,12 @@
+.about-me__title {
+    margin: 0;
+    margin-bottom: 84px;
+
+    	@media (max-width: $screen--medium) {
+    		margin-right: 20px;
+    	}
+
+	    @media (max-width: $screen--very-small) {
+            margin-bottom: 40px;   	
+	    }
+}

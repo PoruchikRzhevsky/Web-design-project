@@ -1,0 +1,12 @@
+.modal__heading {
+    font-size: $font-size__icon;
+
+    margin: 20px;
+
+    color: $text-color--black;
+    
+    @media (max-width: $screen--very-small) {
+        font-size: $font-size__heading;
+        margin: 10px;
+    }
+}

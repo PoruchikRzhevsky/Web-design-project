@@ -1,0 +1,9 @@
+.connection {
+    max-width: 400px;
+    min-height: 100px;
+    padding-top: 10px;
+
+    	@media (max-width: $screen--medium) {
+    		padding-top: 10px;
+    	}
+}

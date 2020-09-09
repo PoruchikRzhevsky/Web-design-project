@@ -1,0 +1,11 @@
+.price__fixed-container {
+    padding: 0 130px;
+    
+        @media (max-width: $screen--medium) {
+            padding: 0 40px;            
+        }
+
+        @media (max-width: $screen--very-small) {
+            padding: 0 20px;            
+        }
+}

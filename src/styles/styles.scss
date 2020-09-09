@@ -1,0 +1,122 @@
+@import "variables";
+@import "mixins";
+@import "animations";
+@import "fonts";
+@import "normalize";
+@import "global";
+
+@import "blocks/fixed-container";
+@import "blocks/header/__fixed-container/header__fixed-container";
+@import "blocks/about-me/__fixed-container/about-me__fixed-container";
+@import "blocks/my-profile/__fixed-container/my-profile__fixed-container";
+@import "blocks/price/__fixed-container/price__fixed-container";
+@import "blocks/footer/__fixed-container/footer__fixed-container";
+@import "blocks/work-examples/__fixed-container/work-examples__fixed-container";
+
+@import "blocks/header/header";
+
+@import "blocks/common-classes/button_color_orange";
+@import "blocks/common-classes/call-button";
+@import "blocks/common-classes/close";
+@import "blocks/common-classes/slider__control";
+@import "blocks/common-classes/icons-wrapper__container";
+@import "blocks/common-classes/icons-wrapper__icon";
+@import "blocks/common-classes/section-title";
+
+@import "blocks/about-me/about-me";
+@import "blocks/about-me/__button/_see-price/about-me__button_see-price";
+@import "blocks/about-me/__heading/about-me__heading";
+@import "blocks/about-me/__item/about-me__item";
+@import "blocks/about-me/__item/_first/about-me__item_first";
+@import "blocks/about-me/__item/_fourth/about-me__item_fourth";
+@import "blocks/about-me/__item/_second/about-me__item_second";
+@import "blocks/about-me/__item/_third/about-me__item_thir";
+@import "blocks/about-me/__list/about-me__list";
+@import "blocks/about-me/__title/about-me__title";
+
+@import "blocks/connection/connection";
+@import "blocks/connection/__button/_call/connection__button_call";
+@import "blocks/connection/__link/connection__link";
+@import "blocks/connection/__link/_fb/connection__link_fb";
+@import "blocks/connection/__link/_inst/connection__link_inst";
+@import "blocks/connection/__link/_tw/connection__link_tw";
+@import "blocks/connection/__link/_vk/connection__link_vk";
+@import "blocks/connection/__list/connection__list";
+
+@import "blocks/contacts/contacts";
+@import "blocks/contacts/__items/contacts__items";
+@import "blocks/contacts/__items/_mail/contacts__items_mail";
+@import "blocks/contacts/__items/_telephone/contacts__items_telephone";
+@import "blocks/contacts/__list/contacts__list";
+
+@import "blocks/slider/slider";
+@import "blocks/slider/__wrapper/slider__wrapper";
+@import "blocks/slider/__bg/slider__bg";
+@import "blocks/slider/__control/_left/slider__control_left";
+@import "blocks/slider/__control/_right/slider__control_right";
+@import "blocks/slider/__content/slider__content";
+@import "blocks/slider/__item/slider__item";
+@import "blocks/slider/__item/_first/slider__item_first";
+@import "blocks/slider/__item/_third/slider__item_third";
+@import "blocks/slider/__title/slider__title";
+
+@import "blocks/my-profile/my-profile";
+@import "blocks/my-profile/__button/_see-more/my-profile__button_see-more";
+@import "blocks/my-profile/__container/my-profile__container";
+@import "blocks/my-profile/__icon/my-profile__icon";
+@import "blocks/my-profile/__icon/_fifth/my-profile__icon_fifth";
+@import "blocks/my-profile/__icon/_first/my-profile__icon_first";
+@import "blocks/my-profile/__icon/_fourth/my-profile__icon_fourth";
+@import "blocks/my-profile/__icon/_second/my-profile__icon_second";
+@import "blocks/my-profile/__icon/_sixth/my-profile__icon_sixth";
+@import "blocks/my-profile/__icon/_third/my-profile__icon_third";
+@import "blocks/my-profile/__photo/my-profile__photo";
+@import "blocks/my-profile/__subtitle/my-profile__subtitle";
+@import "blocks/my-profile/__title/my-profile__title";
+@import "blocks/my-profile/__title-container/my-profile__title-container";
+@import "blocks/my-profile/__wrapper/my-profile__wrapper";
+@import "blocks/my-profile/__photo/my-profile__photo_container/my-profile__photo_container";
+
+@import "blocks/price/price";
+@import "blocks/price/__container/price__container";
+@import "blocks/price/__description/price__description";
+@import "blocks/price/__description/_container/price__description_container";
+@import "blocks/price/__icon/_fifth/price__icon_fifth";
+@import "blocks/price/__icon/_first/price__icon_first";
+@import "blocks/price/__icon/_fourth/price__icon_fourth";
+@import "blocks/price/__icon/_second/price__icon_second";
+@import "blocks/price/__icon/_third/price__icon_third";
+@import "blocks/price/__icons-wrapper/price__icons-wrapper";
+@import "blocks/price/__title/price__title";
+
+@import "blocks/footer/__copyright/footer__copyright";
+
+@import "blocks/footer-menu/footer-menu";
+@import "blocks/footer-menu/__item/footer-menu__item";
+@import "blocks/footer-menu/__link/footer-menu__link";
+
+@import "blocks/pagination/pagination";
+@import "blocks/pagination/__button/pagination__button";
+@import "blocks/pagination/__item/pagination__item";
+
+@import "blocks/top-menu/top-menu";
+@import "blocks/top-menu/__button/_call/top-menu__button_call";
+@import "blocks/top-menu/__button/_open/top-menu__button_open";
+@import "blocks/top-menu/__item/top-menu__item";
+@import "blocks/top-menu/__item/_purple/top-menu__item_purple";
+@import "blocks/top-menu/__nav/top-menu__nav";
+@import "blocks/top-menu/__list/top-menu__list";
+@import "blocks/top-menu/__telephone/top-menu__telephone";
+
+@import "blocks/work-examples/work-examples";
+@import "blocks/work-examples/__button/_order/work-examples__button_order";
+@import "blocks/work-examples/__title/work-examples__title";
+
+@import "blocks/modal/modal";
+@import "blocks/modal/__close/modal__close";
+@import "blocks/modal/__heading/modal__heading";
+@import "blocks/modal/__container/modal__container";
+@import "blocks/modal/__form/modal__form";
+@import "blocks/modal/__form-submit/modal__form-submit";
+@import "blocks/modal/__input/modal__input";
+@import "blocks/modal/__overlay/modal__overlay";

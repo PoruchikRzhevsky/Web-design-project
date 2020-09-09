@@ -1,0 +1,10 @@
+.price__icon_fourth {
+    width: 45px;
+    height: 50px;
+
+    transform: scale(1.5) translate(1195%, 175%) rotate(345deg);
+
+    	@media (max-width: $screen--medium) {
+    		display: none;
+    	}
+}

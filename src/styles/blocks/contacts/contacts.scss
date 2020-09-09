@@ -1,0 +1,9 @@
+.contacts {
+    max-width: 330px;
+    min-height: 85px;
+    	
+    	@media (max-width: $screen--very-small) {
+            margin-bottom: 0;
+            padding: 0;            
+    	}
+}

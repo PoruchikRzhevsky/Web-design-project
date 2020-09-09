@@ -1,0 +1,10 @@
+.price__icon_first {
+    width: 45px;
+    height: 50px;
+
+    transform: scale(1.5) translate(-1230%, 90%) rotate(30deg);
+
+    	@media (max-width: $screen--medium) {
+    		transform: scale(.9) translate(-1000%, 40%) rotate(30deg);
+    	}
+}

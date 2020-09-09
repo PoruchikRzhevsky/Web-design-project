@@ -1,0 +1,15 @@
+.footer__copyright {
+    margin: 0;
+    padding: 24px 0;
+
+    text-align: center;
+
+    color: $text-color--white;
+    background-color: $color-bgr__copyrighting;
+    	
+    	@media (max-width: $screen--very-small) {
+            font-size: $font-size__copyrighting--small;
+
+            padding: 14px 0;            
+    	}
+}

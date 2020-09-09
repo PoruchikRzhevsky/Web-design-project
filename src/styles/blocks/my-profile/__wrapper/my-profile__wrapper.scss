@@ -1,0 +1,18 @@
+.my-profile__wrapper {
+    display: inline-block;
+
+    max-width: 726px;
+    min-height: 221px;
+
+    	@media (max-width: $screen--medium) {
+        	max-width: 490px;
+        }
+
+    	@media (max-width: $screen--very-small) {
+        	max-width: 100%;
+	        min-height: 210px;
+	        padding-top: 14px;
+
+	        order: 1;
+        }
+}

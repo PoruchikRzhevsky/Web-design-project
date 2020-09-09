@@ -1,0 +1,9 @@
+@keyframes icon-expansion {
+    0% {
+        transform: scale(.4) rotate(-2deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}

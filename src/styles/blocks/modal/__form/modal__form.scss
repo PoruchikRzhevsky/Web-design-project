@@ -1,0 +1,15 @@
+.modal__form {
+    display: flex;
+
+    min-height: 350px;
+    padding-top: 50px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    @media (max-width: $screen--very-small) {
+        min-height: 200px;
+        padding-top: 20px;
+    }       
+}

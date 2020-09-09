@@ -1,0 +1,17 @@
+.about-me {
+    padding-top: 85px;
+    padding-bottom: 100px;
+    
+
+    background-color: $color-bgr--white;
+    background-clip: padding-box;
+
+    	@media (max-width: $screen--medium) {
+    		padding-top: 83px;
+    	}
+
+	    @media (max-width: $screen--very-small) {
+            padding-top: 15px;
+            padding-bottom: 50px;   	
+	    }
+}

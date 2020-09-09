@@ -1,0 +1,13 @@
+.about-me__item_first {
+    width: 260px;
+
+    background-position-x: -12%;
+
+    	@media (max-width: $screen--medium) {
+    		width: 260px;
+    	}    
+
+	    @media (max-width: $screen--very-small) {
+            background-position-x: -20%;   	
+	    }
+}

@@ -1,0 +1,15 @@
+.modal__form-submit {
+    font-size: $font-size__title--medium;
+
+    padding: 17px 170px;
+
+    white-space: nowrap;
+
+    align-self: flex-end;
+
+    @media (max-width: $screen--very-small) {
+        font-size: $font-size__link;
+
+        padding: 10px 30px;
+    }
+}

@@ -1,0 +1,12 @@
+.contacts__list {
+    max-width: 270px;
+    margin-left: 65px;
+
+    	@media (max-width: $screen--medium) {
+    		margin-left: 32px;
+    	}
+    	
+    	@media (max-width: $screen--very-small) {
+             margin-left: 0;           
+    	}
+}

@@ -1,0 +1,62 @@
+.my-profile__fixed-container {
+    position: relative;
+
+    max-width: 1366px;
+    padding-top: 181px;
+    padding-left: 98px;
+
+    &::before {
+        position: absolute;
+        z-index: -1;
+        top: 8.9%;
+        right: -27.9%;
+
+        width: 919px;
+        min-height: 763px;
+
+        content: " ";
+
+        background-image: url("../img/ellipse-bg/ellipse-desktop.png");
+        background-repeat: no-repeat;
+    }
+
+    @media (max-width: $screen--medium) {
+        z-index: 2;
+
+        padding-top: 218px;
+
+        &::before {
+            top: 35.7%;
+            right: -36.8%;
+
+            width: 919px;
+            min-height: 630px;
+
+            background-image: url("../img/ellipse-bg/ellipse-tablet.png");
+        }
+    }
+
+    @media (max-width: $screen--very-small) {
+        z-index: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        padding-top: 78px;
+
+        &::before {
+            top: 19%;
+            right: -28%;
+
+            width: 470px;
+            min-height: 390px;
+
+            background-image: url("../img/ellipse-bg/ellipse-mobile.png");
+        }
+    }
+
+    @media (max-width: $screen--gigant) {
+        max-width: 1200px;
+        padding-left: 15px;
+    }
+}

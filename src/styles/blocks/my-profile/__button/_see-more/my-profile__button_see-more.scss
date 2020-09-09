@@ -1,0 +1,15 @@
+.my-profile__button_see-more {
+    padding: 18px 72px;
+
+    	@media (max-width: $screen--medium) {
+	        font-size: $font-size__button;
+
+        	padding: 22px 97px;
+    	}
+
+	    @media (max-width: $screen--very-small) {
+            font-size: $font-size--default;
+
+            padding: 15px 83px;   	
+	    }
+}

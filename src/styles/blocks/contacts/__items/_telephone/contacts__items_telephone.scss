@@ -1,0 +1,14 @@
+.contacts__items_telephone {
+    min-width: 260px;
+
+    background-image: url("../img/call-answer.png");
+
+    	@media (max-width: $screen--medium) {
+    		margin-bottom: 35px;
+    	}
+    	
+    	@media (max-width: $screen--very-small) {
+            min-width: 205px;
+            margin-bottom: 22px;            
+    	}
+}

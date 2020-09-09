@@ -1,0 +1,22 @@
+.my-profile__photo {
+    position: absolute;
+    top: 27px;
+    right: 23px;
+
+    height: 635px;
+
+	    @media (max-width: $screen--medium) {
+	    	top: 53px;
+	        right: 40px;
+	        bottom: 0;
+
+	        min-height: 640px;
+	    }
+
+	    @media (max-width: $screen--very-small) {
+            position: static;
+
+            height: 334px;
+            min-height: auto;   	
+	    }
+}

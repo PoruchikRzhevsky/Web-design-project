@@ -1,0 +1,22 @@
+.modal__close {
+    position: absolute;
+    z-index: 1010;
+    top: -40px;
+    right: -40px;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url('../img/modalCloseButton.png');
+    background-size: cover;
+
+    &:focus {
+        width: 35px;
+    	height: 35px;
+    }
+
+    &:hover {
+        width: 35px;
+    	height: 35px;
+    } 
+}

@@ -1,0 +1,13 @@
+.work-examples__button_order {
+    padding: 18px 65px;
+
+    	@media (max-width: $screen--medium) {
+    		padding: 21px 90px;
+    	}
+    	
+    	@media (max-width: $screen--very-small) {
+            font-size: $font-size--default;
+
+            padding: 16px 77px;            
+    	}
+}

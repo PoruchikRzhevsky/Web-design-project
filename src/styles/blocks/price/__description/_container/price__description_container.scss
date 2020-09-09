@@ -1,0 +1,10 @@
+.price__description_container {
+    max-width: 760px;
+    margin: 0;
+    	
+    	@media (max-width: $screen--very-small) {
+            padding-left: 13px;
+
+            text-indent: -12px;            
+    	}
+}

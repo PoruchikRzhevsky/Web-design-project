@@ -1,0 +1,9 @@
+.slider__control_left {
+	top: 285px;
+    left: -20px;
+    
+    @media (max-width: $screen--large) {
+        top: 285px;
+    	left: 185px;
+    }
+}

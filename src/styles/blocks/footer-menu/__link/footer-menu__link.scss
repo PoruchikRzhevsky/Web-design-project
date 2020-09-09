@@ -1,0 +1,7 @@
+.footer-menu__link {
+    font-size: $font-size__button;
+    	
+    	@media (max-width: $screen--very-small) {
+            font-size: $font-size__link;            
+    	}
+}

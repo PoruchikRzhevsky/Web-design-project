@@ -1,0 +1,14 @@
+.call-button {
+    color: $text-color__call-button;
+    border: 1px solid $color-button__border;
+    
+    display: block;
+
+    &:hover {
+        font-weight: bold;
+    }
+
+    &:focus {
+        font-weight: bold;
+    }
+}

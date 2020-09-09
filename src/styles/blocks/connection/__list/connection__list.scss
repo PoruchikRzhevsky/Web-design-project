@@ -1,0 +1,13 @@
+.connection__list {
+    display: flex;
+
+    width: 210px;
+
+    justify-content: space-between;
+    	
+    	@media (max-width: $screen--very-small) {
+            &:last-child {
+	            margin-right: 78px;			
+            }
+    	}
+}

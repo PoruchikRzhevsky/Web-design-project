@@ -1,0 +1,20 @@
+.top-menu__button_call {
+    font-weight: normal;
+
+    padding: 9px 38px;
+
+    text-indent: 0;
+
+    background-image: none;
+
+        @media (max-width: $screen--very-small) {
+            width: 26px;
+	        height: 26px;
+	        padding: 0;
+
+	        text-indent: -9999px;
+
+	        border: none;
+	        background-image: url("../img/callMobileButton.png");
+        }
+}

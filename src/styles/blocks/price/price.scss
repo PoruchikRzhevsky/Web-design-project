@@ -1,0 +1,20 @@
+.price {
+    position: relative;
+
+    overflow-x: hidden;
+
+    padding: 75px 0 81px 0;
+
+    color: $text-color--white;
+    background: $color-bgr--gradient;
+
+    	@media (max-width: $screen--medium) {
+    		padding-bottom: 80px;
+            overflow: hidden;
+    	}
+    	
+    	@media (max-width: $screen--very-small) {
+            padding-top: 40px;
+            padding-bottom: 40px;            
+    	}
+}

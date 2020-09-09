@@ -1,0 +1,13 @@
+.price__description {
+    font-size: $font-size__button;
+    font-weight: normal;
+    font-style: normal;
+    line-height: $line-height__heading;
+
+    margin: 0;
+    	
+    	@media (max-width: $screen--very-small) {
+            font-size: $font-size__link;
+            line-height: $line-height__heading;            
+    	}
+}

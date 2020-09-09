@@ -1,0 +1,14 @@
+.my-profile__icon_second {
+    width: 35px;
+    height: 42px;
+
+    transform: scale(1.7) translate(-300%, 375%) rotate(20deg);
+
+    	@media (max-width: $screen--medium) {
+        	transform: scale(1.7) translate(-115%, 790%) rotate(20deg);
+        }
+
+    	@media (max-width: $screen--very-small) {
+        	transform: scale(.9) translate(-695%, 385%) rotate(20deg);
+        }
+}

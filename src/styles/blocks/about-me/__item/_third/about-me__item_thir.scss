@@ -1,0 +1,16 @@
+.about-me__item_third {
+    width: 210px;
+
+    background-position-x: 71.5%;
+
+    	@media (max-width: $screen--medium) {
+    		width: 260px;
+    		background-position-x: 72.5%;
+    	}  
+
+	    @media (max-width: $screen--very-small) {
+            margin-bottom: 50px;
+
+            background-position-x: 75.6%;   	
+	    }  
+}

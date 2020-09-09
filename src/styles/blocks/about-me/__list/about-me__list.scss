@@ -1,0 +1,27 @@
+.about-me__list {
+    display: flex;
+
+    width: 1170px;
+    margin: 0 0 92px 0;
+    padding: 0;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    	@media (max-width: $screen--medium) {
+    		max-width: 655px;
+	        margin-bottom: 7px;
+
+	        flex-wrap: wrap;
+	        justify-content: space-between;
+    	}
+
+        @media (max-width: $screen--very-small) {
+            flex-direction: column;
+
+            width: auto;
+            margin-bottom: 0;
+
+            align-items: center;    
+        }
+}

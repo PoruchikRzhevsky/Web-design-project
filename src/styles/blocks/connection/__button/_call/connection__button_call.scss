@@ -1,0 +1,19 @@
+.connection__button_call {
+    margin-bottom: 30px;
+    padding: 10px 60px;
+
+    	@media (max-width: $screen--medium) {
+    		margin-right: 0;
+    	}
+    	
+    	@media (max-width: $screen--very-small) {
+            font-size: $font-size--default;
+
+            margin-bottom: 48px;
+            padding: 15px 76px;
+
+            color: #fff;
+            border: none;
+            background-color: $color-button--red;            
+    	}
+}

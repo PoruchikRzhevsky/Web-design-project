@@ -1,0 +1,13 @@
+.my-profile__subtitle {
+    font-size: $font-size__items;
+    font-weight: normal;
+
+    max-width: 490px;
+
+    color: $text-color__subtitle;
+
+    	@media (max-width: $screen--very-small) {
+            font-size: $font-size--default;
+            line-height: $line-height__subtitle--small;        	
+        }
+}

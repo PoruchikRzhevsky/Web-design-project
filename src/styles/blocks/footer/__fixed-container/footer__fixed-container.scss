@@ -1,0 +1,27 @@
+.footer__fixed-container {
+    display: flex;
+    flex-direction: row;
+
+    min-height: 255px;
+    margin-bottom: 5px;
+    padding-right: 38px;
+
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+        @media (max-width: $screen--medium) {
+            min-height: 285px;
+            margin-bottom: 0;
+            padding-top: 16px;           
+        }
+
+        @media (max-width: $screen--very-small) {
+            flex-direction: column;
+
+            padding-top: 43px;
+            padding-bottom: 45px;
+
+            align-items: flex-start;        
+        }
+}

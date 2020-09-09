@@ -1,0 +1,35 @@
+@font-face
+{
+    font-family: "Roboto"; /* Задат название семейству шрифта */
+    font-weight: 400;  /* Устанавливает начертание шрфита */
+    font-style: normal; /* Устанавливает стиль начертания текста */
+
+    font-display: swap; /* При загрузке страницы браузер отображает стандартный шрифт, а когда прогружается основной шрифт, то он отображает уже его */
+    src: local("Roboto-Regular"), /* Ищет шрифт на компьютере пользователя */
+    url("../fonts/roboto-regular.woff2") format("woff2"), /* Путь до шрифта 1 */
+    url("../fonts/roboto-regular.woff") format("woff"); /* Путь до шрифта 1 */
+}
+
+@font-face
+{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+
+    font-display: swap;
+    src: local("Roboto-Bold"),
+    url("../fonts/roboto-bold.woff2") format("woff2"),
+    url("../fonts/roboto-bold.woff") format("woff");
+}
+
+@font-face
+{
+    font-family: "Roboto";
+    font-weight: 800;
+    font-style: normal;
+
+    font-display: swap;
+    src: local("Roboto-Black"),
+    url("../fonts/roboto-black.woff2") format("woff2"),
+    url("../fonts/roboto-black.woff") format("woff");
+}

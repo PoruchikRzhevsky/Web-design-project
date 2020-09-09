@@ -1,0 +1,13 @@
+.work-examples {
+    margin-bottom: 102px;
+    padding-top: 87px;
+    
+	    @media (max-width: $screen--medium) {
+	    	padding-top: 93px;
+	    }
+
+	    @media (max-width: $screen--very-small) {
+			margin-bottom: 52px;
+            padding-top: 44px;	
+	    }
+}

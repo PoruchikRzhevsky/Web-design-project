@@ -1,0 +1,16 @@
+.my-profile__icon_fifth {
+    width: 83px;
+    height: 39px;
+
+    transform: scale(1.1) translate(365%, 1015%) rotate(20deg);
+
+    	@media (max-width: $screen--medium) {
+            display: none;
+        }
+
+    	@media (max-width: $screen--very-small) {
+	        display: inline-block;
+
+	        transform: scale(.4) translate(-360%, 515%) rotate(20deg);
+        }
+}

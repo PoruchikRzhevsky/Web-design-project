@@ -1,0 +1,15 @@
+.price__title {
+    font-size: $font-size__price;
+    font-weight: bold;
+    line-height: $line-height__title--medium;
+
+    margin: 0;
+    margin-bottom: 30px;
+    	
+    	@media (max-width: $screen--very-small) {
+            font-size: $font-size__title--small;
+            line-height: $line-height__title--small;
+
+            margin-bottom: 35px;            
+    	}
+}

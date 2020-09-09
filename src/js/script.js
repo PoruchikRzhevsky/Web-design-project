@@ -1,0 +1,7 @@
+@@include('no-js-check.js')
+@@include('anchor-link.js')
+@@include('menu.js')
+@@include('slider.js')
+@@include('pagination.js')
+@@include('modal-call-order.js')
+@@include('modal-project-order.js')

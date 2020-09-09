@@ -1,0 +1,20 @@
+.slider__title {
+    font-size: $font-size__heading;
+    font-weight: 500;
+
+    margin-top: 27px;
+
+    text-align: center;
+
+    	@media (max-width: $screen--medium) {
+    		font-size: $font-size__title--medium;
+
+        	margin-top: 17px;
+    	}
+    	
+    	@media (max-width: $screen--very-small) {
+            font-size: $font-size__button;
+
+            margin-top: 11px;
+    	}
+}

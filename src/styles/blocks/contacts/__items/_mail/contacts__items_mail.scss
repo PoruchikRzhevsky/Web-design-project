@@ -1,0 +1,15 @@
+.contacts__items_mail {
+    min-width: 300px;
+    margin: 0;
+    padding-left: 45px;
+
+    background-image: url("../img/envelope.png");
+
+    	@media (max-width: $screen--medium) {
+    		padding-left: 49px;
+    	}
+    	
+    	@media (max-width: $screen--very-small) {
+            min-width: 230px;            
+    	}
+}

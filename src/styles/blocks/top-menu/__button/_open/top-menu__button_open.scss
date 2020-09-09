@@ -1,0 +1,78 @@
+.top-menu__button_open {
+    display: none;
+
+    width: 45px;
+    height: 32px;
+    margin-top: 6px;
+    margin-left: 3px;
+
+    background-image: url("../img/menuMobileButton.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    @media (max-width: $screen--medium) {
+        display: inline-block;
+    }
+
+    @media (max-width: $screen--very-small) {
+        width: 23px;
+        height: 17px;
+        margin-top: 5px;
+        margin-left: 1px;
+    }
+}
+
+.no-js .top-menu__button_open {
+    display: none;
+
+    width: 45px;
+    height: 32px;
+    margin-top: 6px;
+
+    background-image: url("../img/menuCloseButton.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+
+    order: -1;
+    flex-grow: 1;
+
+    @media (max-width: $screen--medium) {
+        display: inline-block;
+    }
+
+    @media (max-width: $screen--very-small) {
+        width: 23px;
+        height: 17px;
+        margin-top: 5px;
+        margin-left: 1px;
+    }
+}
+
+.menu-open .top-menu__button_open {
+    display: none;
+
+    width: 45px;
+    height: 32px;
+    margin-top: 6px;
+
+    background-image: url("../img/menuCloseButton.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+
+    order: -1;
+    flex-grow: 1;
+
+    @media (max-width: $screen--medium) {
+        display: inline-block;
+    }
+
+    @media (max-width: $screen--very-small) {
+        width: 23px;
+        height: 17px;
+        margin-top: 5px;
+        margin-left: 1px;
+    }
+}

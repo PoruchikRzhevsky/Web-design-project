@@ -1,0 +1,16 @@
+.my-profile__container {
+    z-index: -1;
+
+    animation-name: icon-expansion;
+
+    	@media (max-width: $screen--medium) {
+            z-index: 1;
+
+        	max-width: 945px;
+        	height: 692px;
+        }
+
+        @media (max-width: $screen--very-small) {
+            height: 636px;
+        }
+}

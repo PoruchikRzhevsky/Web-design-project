@@ -1,0 +1,14 @@
+.slider__bg {
+    width: 370px;
+
+    	@media (max-width: $screen--medium) {
+    		max-width: 455px;
+    		width: 455px;
+        	height: 358px;
+    	}
+    	
+    	@media (max-width: $screen--very-small) {
+            max-width: 280px;
+            height: 250px;
+    	}
+}

@@ -1,0 +1,43 @@
+.top-menu__item {
+    display: inline;
+
+    margin-right: 28px;
+}
+
+.no-js .top-menu__item {
+    @media (max-width: $screen--medium) {
+        font-size: 20px;
+        font-weight: 500;
+
+        margin-right: 35px;
+    }
+
+    @media (max-width: $screen--very-small) {
+        font-size: 18px;
+        font-weight: 500;
+
+        display: block;
+
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.menu-open .top-menu__item {
+    @media (max-width: $screen--medium) {
+        font-size: 20px;
+        font-weight: 500;
+
+        margin-right: 35px;
+    }
+
+    @media (max-width: $screen--very-small) {
+        font-size: 18px;
+        font-weight: 500;
+
+        display: block;
+
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

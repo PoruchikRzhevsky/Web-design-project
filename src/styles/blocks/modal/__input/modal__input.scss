@@ -1,0 +1,34 @@
+.modal__input {
+    font-size: $font-size__heading;
+
+    width: 100%;
+    padding: 10px 10px 5px 0;
+
+    border: none;
+    border-bottom: 2px solid $color-button__border;
+    outline: none;
+
+    &:focus {
+        font-size: $font-size__title--medium;
+    }
+
+    &:hover {
+        border-bottom: 3px solid $color-button__border;
+    }
+
+    @media (max-width: $screen--very-small) {
+        font-size: $font-size__copyrighting--small;
+
+        padding: 5px 5px 2.5px 0;
+
+        border-bottom: 1px solid $color-button__border;
+
+        &:focus {
+            font-size: $font-size--default;
+        }
+
+        &:hover {
+            border-bottom: 2px solid $color-button__border;
+        }
+    }
+}

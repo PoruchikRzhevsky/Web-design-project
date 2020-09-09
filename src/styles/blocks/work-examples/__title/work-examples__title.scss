@@ -1,0 +1,13 @@
+.work-examples__title {
+    margin-bottom: 98px;
+
+    	@media (max-width: $screen--medium) {
+    		margin-bottom: 94px;
+    	}
+
+	    @media (max-width: $screen--very-small) {
+            line-height: $line-height__title--very-small;
+
+            margin-bottom: 40px;	
+	    }
+}

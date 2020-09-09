@@ -1,0 +1,13 @@
+.footer-menu {
+    max-width: 100px;
+    padding-top: 10px;
+
+    	@media (max-width: $screen--medium) {
+    		padding-top: 9px;
+    	}
+    	
+    	@media (max-width: $screen--very-small) {
+            margin-bottom: 27px;
+            padding-top: 0;            
+    	}
+}

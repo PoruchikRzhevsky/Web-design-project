@@ -1,0 +1,17 @@
+.about-me__item_fourth {
+    width: 250px;
+
+    background-position-x: 111%;
+
+    	@media (max-width: $screen--medium) {
+    		width: 275px;
+    		
+    		background-position-x: 113.5%;
+    	}    
+
+	    @media (max-width: $screen--very-small) {
+            padding-top: 75px;
+
+            background-position-x: 121%;   	
+	    }
+}

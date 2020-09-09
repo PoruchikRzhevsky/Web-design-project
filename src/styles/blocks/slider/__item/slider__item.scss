@@ -1,0 +1,19 @@
+.slider__item {
+    display: inline-flex;
+
+    width: 397px;
+
+    text-align: center;
+
+    @media (max-width: $screen--large) {
+        justify-content: center;
+    }
+
+    @media (max-width: $screen--medium) {
+        width: 485px;
+    }
+
+    @media (max-width: $screen--very-small) {
+        width: 280px;
+    }
+}
