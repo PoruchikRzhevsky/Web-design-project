@@ -1,7 +1,7 @@
 {
   "name": "tesis-project",
   "version": "1.0.0",
-  "description": "Tesis Project",
+  "description": "Tesis project",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
