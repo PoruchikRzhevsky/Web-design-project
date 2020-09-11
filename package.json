@@ -1,7 +1,7 @@
 {
-  "name": "advanced-css",
+  "name": "tesis-project",
   "version": "1.0.0",
-  "description": "Advaced CSS",
+  "description": "Tesis Project",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
