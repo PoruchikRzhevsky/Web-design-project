@@ -3,7 +3,7 @@
     font-weight: 800;
 
     margin: 0;
-    margin-bottom: 48px;
+    margin-bottom: 65px;
 
     text-align: left;
 
@@ -12,13 +12,13 @@
     	@media (max-width: $screen--medium) {
 	        font-size: $font-size__section-title;
 
-	        margin-bottom: 47px;
+	        margin-bottom: 69px;
     	}
 
         @media (max-width: $screen--very-small) {
             font-size: $font-size__title;
 
-            margin-bottom: 26px;
+            margin-bottom: 44px;
 
             text-align: center;
         }
