@@ -9,12 +9,18 @@
     background-image: url("../img/arrow.png");
     background-repeat: no-repeat;
     box-shadow: 0 0 10px #0002;
-    
-    &:focus {
-        outline: 2px solid;
+
+    &:hover {
+        color: $text-color--black;
+        outline: 1px solid #0002;
     }
 
-    	@media (max-width: $screen--medium) {
-            display: none;
-        }
+    &:focus {
+        color: $text-color--black;
+        outline: 1px solid #0002;
+    }
+
+    @media (max-width: $screen--medium) {
+        display: none;
+    }
 }

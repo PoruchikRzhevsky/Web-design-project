@@ -4,13 +4,13 @@
 
     transition: transform .6s ease;
     white-space: nowrap;
-
-    @media (max-width: $screen--large) {
-        transform: translateX(-1.6%);
-    }
+    
+    will-change: transform;
 
     @media (max-width: $screen--medium) {
         height: auto;
+
+        transform: translateX(-1.6%);
     }
 
     @media (max-width: $screen--very-small) {

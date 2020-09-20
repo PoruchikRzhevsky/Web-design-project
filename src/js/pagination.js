@@ -25,14 +25,14 @@ firstPaginationButtonEl.addEventListener('click', function(){
 });
 
 secondPaginationButtonEl.addEventListener('click', function(){
-	sliderWrapperEl.style.transform = 'translateX(0%)';
+	sliderWrapperEl.style.transform = 'translateX(-1.6%)';
 	thirdSliderItemEl.style.transform = 'translateX(0%)';
 
 	changeButtonColor(firstPaginationButtonEl, thirdPaginationButtonEl, this);
 });
 
 thirdPaginationButtonEl.addEventListener('click', function(){
-	sliderWrapperEl.style.transform = 'translateX(-50%)';
+	sliderWrapperEl.style.transform = 'translateX(-51.6%)';
 
 	if ((window.innerWidth < 1024 ))  {
 		sliderWrapperEl.style.transform = 'translateX(-100%)';

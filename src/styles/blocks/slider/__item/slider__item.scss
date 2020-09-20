@@ -4,16 +4,24 @@
     width: 397px;
 
     text-align: center;
+    
+    will-change: transform;
 
     @media (max-width: $screen--large) {
         justify-content: center;
+        
+        transform: translateX(0%);
     }
 
     @media (max-width: $screen--medium) {
         width: 485px;
+        
+        transform: translateX(0%);
     }
 
     @media (max-width: $screen--very-small) {
         width: 280px;
+        
+        transform: translateX(0%);
     }
 }

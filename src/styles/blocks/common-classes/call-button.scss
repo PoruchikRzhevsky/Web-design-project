@@ -5,10 +5,10 @@
     display: block;
 
     &:hover {
-        font-weight: bold;
+        color: $text-color--black;
     }
 
     &:focus {
-        font-weight: bold;
+        color: $text-color--black;        
     }
 }

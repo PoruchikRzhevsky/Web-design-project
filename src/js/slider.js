@@ -85,7 +85,14 @@
           _sliderControls.forEach(function (item) {
             item.addEventListener('click', _controlClick);
           });
-        }
+        };
+
+        window.addEventListener('resize', function(){
+            _sliderWrapper.style.transform = 'translateX(0%)';
+            _items.forEach((item) => {
+              item.item.style.transform = 'translateX(0%)';
+            });
+        });
 
         // инициализация
         _setUpListeners();

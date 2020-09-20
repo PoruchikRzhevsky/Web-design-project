@@ -118,7 +118,14 @@ navSelectEl.addEventListener('click', function(event){
           _sliderControls.forEach(function (item) {
             item.addEventListener('click', _controlClick);
           });
-        }
+        };
+
+        window.addEventListener('resize', function(){
+            _sliderWrapper.style.transform = 'translateX(0%)';
+            _items.forEach((item) => {
+              item.item.style.transform = 'translateX(0%)';
+            });
+        });
 
         // инициализация
         _setUpListeners();
@@ -163,14 +170,14 @@ firstPaginationButtonEl.addEventListener('click', function(){
 });
 
 secondPaginationButtonEl.addEventListener('click', function(){
-	sliderWrapperEl.style.transform = 'translateX(0%)';
+	sliderWrapperEl.style.transform = 'translateX(-1.6%)';
 	thirdSliderItemEl.style.transform = 'translateX(0%)';
 
 	changeButtonColor(firstPaginationButtonEl, thirdPaginationButtonEl, this);
 });
 
 thirdPaginationButtonEl.addEventListener('click', function(){
-	sliderWrapperEl.style.transform = 'translateX(-50%)';
+	sliderWrapperEl.style.transform = 'translateX(-51.6%)';
 
 	if ((window.innerWidth < 1024 ))  {
 		sliderWrapperEl.style.transform = 'translateX(-100%)';
@@ -181,14 +188,16 @@ thirdPaginationButtonEl.addEventListener('click', function(){
 const modalCallOrderEl = document.querySelector('.js-modal_call-order');
 const callOrderOverlayEl = document.querySelector('.js-overlay_call-order');
 const closeButtonCallOrderEl = document.querySelector('.js-close-button_call-order');
-const callOrderButtonEl = document.querySelector('.js-call-button');
+const callOrderButtonEl = document.querySelectorAll('.js-call-button');
 
 closeButtonCallOrderEl.addEventListener('click', function() {
   modalCallOrderEl.classList.toggle('close');
 });
 
-callOrderButtonEl.addEventListener('click', function() {
-  modalCallOrderEl.classList.toggle('close');
+callOrderButtonEl.forEach((item) => {
+	item.addEventListener('click', function() {
+		modalCallOrderEl.classList.toggle('close');
+	});
 });
 
 callOrderOverlayEl.addEventListener('click', function() {

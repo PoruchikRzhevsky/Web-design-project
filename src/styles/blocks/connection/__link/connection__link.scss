@@ -6,4 +6,12 @@
 
     background-image: url("../img/sprites/socialMediaSprite.png");
     background-repeat: no-repeat;
+
+    &:hover {
+        opacity: .7;
+    }
+
+    &:focus {
+        opacity: .7;
+    }
 }
