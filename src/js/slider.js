@@ -72,6 +72,15 @@
         }
 
         // обработчик события click для кнопок "назад" и "вперед"
+        var sliderSwipe = new Swipe(document.querySelector('.js-slider'));
+        sliderSwipe.onLeft(function () {
+          _transformItem('right')
+        });
+        sliderSwipe.onRight(function () {
+          _transformItem('left')
+        });
+        sliderSwipe.run();
+
         var _controlClick = function (e) {
           if (e.target.classList.contains('js-slider__control')) {
             e.preventDefault();

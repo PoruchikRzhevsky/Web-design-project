@@ -25,7 +25,7 @@ firstPaginationButtonEl.addEventListener('click', function(){
 });
 
 secondPaginationButtonEl.addEventListener('click', function(){
-	sliderWrapperEl.style.transform = 'translateX(-1.6%)';
+	sliderWrapperEl.style.transform = 'translateX(0%)';
 	thirdSliderItemEl.style.transform = 'translateX(0%)';
 
 	changeButtonColor(firstPaginationButtonEl, thirdPaginationButtonEl, this);
