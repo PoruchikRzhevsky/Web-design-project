@@ -1026,18 +1026,16 @@ a {
   margin-bottom: 10px;
 }
 
-.footer-menu__item:hover {
-  color: #fc557c;
-  border-bottom: 1px solid #fc557c;
-}
-
-.footer-menu__item:focus {
-  color: #fc557c;
-  border-bottom: 1px solid #fc557c;
-}
-
 .footer-menu__link {
   font-size: 18px;
+}
+
+.footer-menu__link:hover {
+  color: #fc557c;
+}
+
+.footer-menu__link:focus {
+  color: #fc557c;
 }
 
 .pagination {
@@ -1121,12 +1119,12 @@ a {
   margin-right: 28px;
 }
 
-.top-menu__item:hover {
+.top-menu__link:hover {
   color: #fc557c;
   border-bottom: 1px solid #fc557c;
 }
 
-.top-menu__item:focus {
+.top-menu__link:focus {
   color: #fc557c;
   border-bottom: 1px solid #fc557c;
 }

@@ -2,16 +2,6 @@
     display: inline;
 
     margin-right: 28px;
-    
-    &:hover {
-        color: $color--purple;
-        border-bottom: 1px solid $color--purple;
-    }
-
-    &:focus {
-        color: $color--purple;
-        border-bottom: 1px solid $color--purple;
-    }
 }
 
 .no-js .top-menu__item {

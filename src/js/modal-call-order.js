@@ -10,9 +10,14 @@ closeButtonCallOrderEl.addEventListener('click', function() {
 callOrderButtonEl.forEach((item) => {
 	item.addEventListener('click', function() {
 		modalCallOrderEl.classList.toggle('close');
+		closeButtonCallOrderEl.focus();
 	});
 });
 
 callOrderOverlayEl.addEventListener('click', function() {
   modalCallOrderEl.classList.toggle('close');
 });
+
+window.addEventListener('keydown', function (e) {
+    if(e.keyCode === 27) modalCallOrderEl.classList.toggle('close');
+}); 

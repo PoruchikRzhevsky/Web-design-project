@@ -1,7 +1,16 @@
 .footer-menu__link {
     font-size: $font-size__button;
+    
+        
+    &:hover {
+        color: $color--purple;
+    }
+
+    &:focus {
+        color: $color--purple;
+    }
     	
     	@media (max-width: $screen--very-small) {
-            font-size: $font-size__link;            
+            font-size: $font-size__link;
     	}
 }

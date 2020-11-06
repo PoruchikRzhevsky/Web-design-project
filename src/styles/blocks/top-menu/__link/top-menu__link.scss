@@ -1,0 +1,11 @@
+.top-menu__link {
+    &:hover {
+        color: $color--purple;
+        border-bottom: 1px solid $color--purple;
+    }
+
+    &:focus {
+        color: $color--purple;
+        border-bottom: 1px solid $color--purple;
+    }
+}
