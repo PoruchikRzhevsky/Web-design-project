@@ -18,5 +18,5 @@ projectOrderOverlayEl.addEventListener('click', function() {
 });
 
 window.addEventListener('keydown', function (e) {
-    if(e.keyCode === 27) modalProjectOrderEl.classList.toggle('close');
+    if(e.keyCode === 27) modalProjectOrderEl.classList.add('close');
 }); 

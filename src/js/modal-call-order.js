@@ -19,5 +19,5 @@ callOrderOverlayEl.addEventListener('click', function() {
 });
 
 window.addEventListener('keydown', function (e) {
-    if(e.keyCode === 27) modalCallOrderEl.classList.toggle('close');
+    if(e.keyCode === 27) modalCallOrderEl.classList.add('close');
 }); 

@@ -288,7 +288,7 @@ callOrderOverlayEl.addEventListener('click', function() {
 });
 
 window.addEventListener('keydown', function (e) {
-    if(e.keyCode === 27) modalCallOrderEl.classList.toggle('close');
+    if(e.keyCode === 27) modalCallOrderEl.classList.add('close');
 }); 
 const modalProjectOrderEl = document.querySelector('.js-modal_project-order');
 const projectOrderOverlayEl = document.querySelector('.js-overlay_project-order');
@@ -310,5 +310,5 @@ projectOrderOverlayEl.addEventListener('click', function() {
 });
 
 window.addEventListener('keydown', function (e) {
-    if(e.keyCode === 27) modalProjectOrderEl.classList.toggle('close');
+    if(e.keyCode === 27) modalProjectOrderEl.classList.add('close');
 }); 
