@@ -4,6 +4,7 @@
 @import "fonts";
 @import "normalize";
 @import "global";
+@import "swiper-bundle";
 
 @import "blocks/fixed-container";
 @import "blocks/header/__fixed-container/header__fixed-container";
@@ -97,7 +98,6 @@
 
 @import "blocks/pagination/pagination";
 @import "blocks/pagination/__button/pagination__button";
-@import "blocks/pagination/__item/pagination__item";
 
 @import "blocks/top-menu/top-menu";
 @import "blocks/top-menu/__button/_call/top-menu__button_call";

@@ -12,6 +12,10 @@
         opacity: .5;
     }
 
+    &:active {
+        opacity: 1;
+    }
+
     @media (max-width: $screen--very-small) {
         font-size: $font-size__button;
 

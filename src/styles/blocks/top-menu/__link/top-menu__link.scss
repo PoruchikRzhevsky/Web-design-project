@@ -8,4 +8,8 @@
         color: $color--purple;
         border-bottom: 1px solid $color--purple;
     }
+
+    &:active {
+        color: $text-color--black;
+    }
 }

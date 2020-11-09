@@ -11,4 +11,8 @@
     &:focus {
     	background-color: $color-button--hover;
     }    
+    
+    &:active {
+        color: $text-color--black;
+    }
 }

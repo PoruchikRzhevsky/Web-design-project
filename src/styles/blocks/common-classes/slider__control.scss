@@ -20,6 +20,11 @@
         outline: 1px solid #0002;
     }
 
+    &:active {
+        width: 65px;
+        height: 65px;
+    }
+
     @media (max-width: $screen--medium) {
         display: none;
     }
