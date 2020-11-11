@@ -9,6 +9,8 @@
 
     background-image: url('../img/modalCloseButton.png');
     background-size: cover;
+    
+    transition: all 0.2s;
 
     &:focus {
         width: 35px;

@@ -1,18 +1,6 @@
 const body = document.getElementsByTagName('body')[0];
 
 body.classList.remove('no-js');
-const anchors = document.querySelectorAll('a[href*="#"]')
-
-for (let anchor of anchors) {
-	anchor.addEventListener("click", function(event) {
-		event.preventDefault();
-		const blockID = anchor.getAttribute('href');
-		document.querySelector('' + blockID).scrollIntoView({
-			behavior: "smooth",
-			block: "start"
-		})
-	})
-}
 const navListEl = document.getElementsByClassName('js-top-menu')[0];
 const navSelectEl = document.getElementsByClassName('js-top-menu__button_open')[0];
 
@@ -9464,6 +9452,17 @@ const slider = document.querySelector('.swiper-container');
 
 let swiper = new Swiper(slider, {
   slidesPerView: 3,
+  breakpoints: {
+    1250: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
+    320: {
+      slidesPerView: 1,
+    }
+  },
   spaceBetween: 30,
   slidesPerGroup: 1,
   loop: true,
@@ -9484,13 +9483,6 @@ let swiper = new Swiper(slider, {
   keyboard: {
     enabled: true,
   },
-});
-
-window.addEventListener('resize', function(){
-  var ww = window.screen.width;
-  if (ww > 1250) swiper.params.slidesPerView = 3;
-  if (ww > 1024 && ww<=1250) swiper.params.slidesPerView = 2;
-  if (ww <= 1024) swiper.params.slidesPerView = 1;
 });
 const modalCallOrderEl = document.querySelector('.js-modal_call-order');
 const callOrderOverlayEl = document.querySelector('.js-overlay_call-order');

@@ -1,7 +1,9 @@
 .footer-menu__link {
     font-size: $font-size__button;
-    
-        
+
+    transition: all .2s;
+
+
     &:hover {
         color: $color--purple;
     }
@@ -13,8 +15,8 @@
     &:active {
         color: $text-color--black;
     }
-    	
-    	@media (max-width: $screen--very-small) {
-            font-size: $font-size__link;
-    	}
+
+    @media (max-width: $screen--very-small) {
+        font-size: $font-size__link;
+    }
 }

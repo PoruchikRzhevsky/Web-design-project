@@ -1,5 +1,4 @@
 @@include('no-js-check.js')
-@@include('anchor-link.js')
 @@include('menu.js')
 @@include('swiper-bundle.js')
 @@include('slider.js')

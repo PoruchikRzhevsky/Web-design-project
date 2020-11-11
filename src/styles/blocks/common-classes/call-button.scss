@@ -1,15 +1,17 @@
 .call-button {
+    display: block;
+
+    transition: all .2s;
+
     color: $text-color__call-button;
     border: 1px solid $color-button__border;
-    
-    display: block;
 
     &:hover {
         color: $text-color--black;
     }
 
     &:focus {
-        color: $text-color--black;        
+        color: $text-color--black;
     }
 
     &:active {

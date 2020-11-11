@@ -1,4 +1,6 @@
 .top-menu__link {
+    transition: all 0.2s;
+    
     &:hover {
         color: $color--purple;
         border-bottom: 1px solid $color--purple;
