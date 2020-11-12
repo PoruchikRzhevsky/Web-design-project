@@ -13,18 +13,16 @@
     transition: all 0.2s;
 
     &:hover {
-        color: $text-color--black;
-        outline: 1px solid #0002;
+        transform: scale(1.2);
     }
 
     &:focus {
-        color: $text-color--black;
+        transform: scale(1.2);
         outline: 1px solid #0002;
     }
 
     &:active {
-        width: 65px;
-        height: 65px;
+        transform: scale(1.4);
     }
 
     @media (max-width: $screen--medium) {

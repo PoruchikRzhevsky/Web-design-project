@@ -6,10 +6,24 @@
     margin-top: 6px;
     margin-left: 3px;
 
+    transition: all .2s;
+
     background-image: url("../img/menuMobileButton.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+
+    &:focus {
+        transform: scale(1.2);
+    }
+
+    &:hover {
+        transform: scale(1.2);
+    }
+
+    &:active {
+        transform: scale(1.5);
+    }
 
     @media (max-width: $screen--medium) {
         display: inline-block;

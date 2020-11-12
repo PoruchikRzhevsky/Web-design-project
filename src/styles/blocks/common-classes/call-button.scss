@@ -7,14 +7,14 @@
     border: 1px solid $color-button__border;
 
     &:hover {
-        color: $text-color--black;
+        transform: scale(1.1);
     }
 
     &:focus {
-        color: $text-color--black;
+        transform: scale(1.1);
     }
 
     &:active {
-        color: $text-color__call-button;
+        transform: scale(1.2);
     }
 }

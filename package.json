@@ -23,5 +23,8 @@
     "gulp-uglify-es": "^2.0.0",
     "gulp-webp": "^4.0.1",
     "gulp-webp-html": "^1.0.2"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001157"
   }
 }

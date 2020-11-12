@@ -237,7 +237,7 @@
   height: 8px;
   display: inline-block;
   border-radius: 100%;
-  background: #000;
+  background: #ebebeb;
 }
 button.swiper-pagination-bullet {
   border: none;
@@ -251,7 +251,9 @@ button.swiper-pagination-bullet {
 .swiper-pagination-clickable .swiper-pagination-bullet {
   cursor: pointer;
 }
-
+.swiper-pagination-bullet-active {
+  background: #f53f4f;
+}
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;
   top: 50%;

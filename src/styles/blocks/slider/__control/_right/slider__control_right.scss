@@ -1,11 +1,25 @@
 .slider__control_right {
     top: 308px;
     right: -12px;
-    
-    @media (max-width: $screen--large) {
-        top: 308px;
-    	right: 183px;
-    }    
 
     transform: rotate(180deg);
+
+    &:hover {
+        transform: scale(1.2) rotate(180deg);
+    }
+
+    &:focus {
+        transform: scale(1.2) rotate(180deg);
+
+        outline: 1px solid #0002;
+    }
+
+    &:active {
+        transform: scale(1.4) rotate(180deg);
+    }
+
+    @media (max-width: $screen--large) {
+        top: 308px;
+        right: 183px;
+    }
 }

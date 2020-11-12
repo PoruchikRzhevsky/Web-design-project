@@ -3,18 +3,32 @@
 
     padding: 9px 38px;
 
+    transition: all .2s;
     text-indent: 0;
 
     background-image: none;
 
-        @media (max-width: $screen--very-small) {
-            width: 26px;
-	        height: 26px;
-	        padding: 0;
 
-	        text-indent: -9999px;
-
-	        border: none;
-	        background-image: url("../img/callMobileButton.png");
+    @media (max-width: $screen--very-small) {
+        width: 26px;
+        height: 26px;
+        padding: 0;
+        
+        &:focus {
+            transform: scale(1.2);
         }
+
+        &:hover {
+            transform: scale(1.2);
+        }
+
+        &:active {
+            transform: scale(1.5);
+        }
+
+        text-indent: -9999px;
+
+        border: none;
+        background-image: url("../img/callMobileButton.png");
+    }
 }

@@ -7,23 +7,20 @@
     width: 30px;
     height: 30px;
 
+    transition: all .2s;
+
     background-image: url('../img/modalCloseButton.png');
     background-size: cover;
-    
-    transition: all 0.2s;
 
     &:focus {
-        width: 35px;
-    	height: 35px;
+        transform: scale(1.3);
     }
 
     &:hover {
-        width: 35px;
-    	height: 35px;
-    } 
+        transform: scale(1.3);
+    }
 
     &:active {
-        width: 40px;
-        height: 40px;
+        transform: scale(1.5);
     }
 }

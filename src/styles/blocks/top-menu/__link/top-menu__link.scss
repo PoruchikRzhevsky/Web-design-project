@@ -1,17 +1,39 @@
 .top-menu__link {
-    transition: all 0.2s;
-    
+    position: relative;
+
+    transition: all .2s;
+
     &:hover {
         color: $color--purple;
-        border-bottom: 1px solid $color--purple;
-    }
+    }   
 
     &:focus {
         color: $color--purple;
-        border-bottom: 1px solid $color--purple;
     }
 
     &:active {
         color: $text-color--black;
+    }
+
+    &:hover::before {
+        position: absolute;
+
+        width: 100%;
+        height: 100%;
+
+        content: " ";
+
+        border-bottom: 1px solid $color--purple;
+    }
+
+    &:focus::before {
+        position: absolute;
+
+        width: 100%;
+        height: 100%;
+
+        content: " ";
+
+        border-bottom: 1px solid $color--purple;
     }
 }
