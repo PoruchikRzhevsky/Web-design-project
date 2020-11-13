@@ -1,5 +1,7 @@
 .my-profile__icon {
     transform: translate3d(0, 0, 0);
+    
+    will-change: transform;
 
     background: $color-bgr--gradient;
     -webkit-background-clip: text;
