@@ -1,4 +1,4 @@
-const slider = document.querySelector('.swiper-container');
+const slider = document.querySelector('.js-slider');
 
 let swiper = new Swiper(slider, {
   slidesPerView: 3,
@@ -20,15 +20,15 @@ let swiper = new Swiper(slider, {
   allowTouchMove: true,
   loopFillGroupWithBlank: true,
   pagination: {
-    el: '.swiper-pagination',
+    el: '.js-pagination',
     clickable: true,
     renderBullet: function () {
       return '<span class="swiper-pagination-bullet pagination__button">' + '</span>';
     },
   },
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.js-slider__control_right',
+    prevEl: '.js-slider__control_left',
   },
   keyboard: {
     enabled: true,

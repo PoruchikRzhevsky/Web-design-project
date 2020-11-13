@@ -6,7 +6,7 @@ const projectForm = document.querySelector('.js-modal__form_project');
 
 closeButtonProjectOrderEl.addEventListener('click', function() {
   modalProjectOrderEl.classList.toggle('close');
-  body.classList.toggle('no-scroll');
+  body.classList.remove('no-scroll');
   projectOrderButtonEl.focus();
   projectForm.reset();
 });
@@ -14,20 +14,20 @@ closeButtonProjectOrderEl.addEventListener('click', function() {
 projectOrderButtonEl.addEventListener('click', function(e) {
   modalProjectOrderEl.classList.toggle('close');
   closeButtonProjectOrderEl.focus();
-  body.classList.toggle('no-scroll');
+  body.classList.add('no-scroll');
   e.preventDefault();
 });
 
 projectOrderOverlayEl.addEventListener('click', function() {
   modalProjectOrderEl.classList.toggle('close');
-  body.classList.toggle('no-scroll');
+  body.classList.remove('no-scroll');
   projectForm.reset();
 });
 
 window.addEventListener('keydown', function (e) {
     if(e.keyCode === 27) {
     	modalProjectOrderEl.classList.add('close');
-    	body.classList.toggle('no-scroll');
+    	body.classList.remove('no-scroll');
       projectForm.reset();
     }
 }); 

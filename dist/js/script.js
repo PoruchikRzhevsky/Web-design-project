@@ -9448,7 +9448,7 @@ navSelectEl.addEventListener('click', function(event){
 })));
 //# sourceMappingURL=swiper-bundle.js.map
 
-const slider = document.querySelector('.swiper-container');
+const slider = document.querySelector('.js-slider');
 
 let swiper = new Swiper(slider, {
   slidesPerView: 3,
@@ -9470,15 +9470,15 @@ let swiper = new Swiper(slider, {
   allowTouchMove: true,
   loopFillGroupWithBlank: true,
   pagination: {
-    el: '.swiper-pagination',
+    el: '.js-pagination',
     clickable: true,
     renderBullet: function () {
       return '<span class="swiper-pagination-bullet pagination__button">' + '</span>';
     },
   },
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.js-slider__control_right',
+    prevEl: '.js-slider__control_left',
   },
   keyboard: {
     enabled: true,
@@ -9492,14 +9492,14 @@ const callForm = document.querySelector('.js-modal__form_call');
 
 closeButtonCallOrderEl.addEventListener('click', function() {
   modalCallOrderEl.classList.toggle('close');
-  body.classList.toggle('no-scroll');
+  body.classList.remove('no-scroll');
   callForm.reset();
 });
 
 callOrderButtonEl.forEach((item) => {
 	item.addEventListener('click', function(e) {
 		modalCallOrderEl.classList.toggle('close');
-		body.classList.toggle('no-scroll');
+		body.classList.add('no-scroll');
 		closeButtonCallOrderEl.focus();
 		e.preventDefault();
 	});
@@ -9507,14 +9507,14 @@ callOrderButtonEl.forEach((item) => {
 
 callOrderOverlayEl.addEventListener('click', function() {
   modalCallOrderEl.classList.toggle('close');
-  body.classList.toggle('no-scroll');
+  body.classList.remove('no-scroll');
   callForm.reset();
 });
 
 window.addEventListener('keydown', function (e) {
     if(e.keyCode === 27) {
     	modalCallOrderEl.classList.add('close');
-    	body.classList.toggle('no-scroll');
+    	body.classList.remove('no-scroll');
       callForm.reset();
     }
 }); 
@@ -9526,7 +9526,7 @@ const projectForm = document.querySelector('.js-modal__form_project');
 
 closeButtonProjectOrderEl.addEventListener('click', function() {
   modalProjectOrderEl.classList.toggle('close');
-  body.classList.toggle('no-scroll');
+  body.classList.remove('no-scroll');
   projectOrderButtonEl.focus();
   projectForm.reset();
 });
@@ -9534,20 +9534,20 @@ closeButtonProjectOrderEl.addEventListener('click', function() {
 projectOrderButtonEl.addEventListener('click', function(e) {
   modalProjectOrderEl.classList.toggle('close');
   closeButtonProjectOrderEl.focus();
-  body.classList.toggle('no-scroll');
+  body.classList.add('no-scroll');
   e.preventDefault();
 });
 
 projectOrderOverlayEl.addEventListener('click', function() {
   modalProjectOrderEl.classList.toggle('close');
-  body.classList.toggle('no-scroll');
+  body.classList.remove('no-scroll');
   projectForm.reset();
 });
 
 window.addEventListener('keydown', function (e) {
     if(e.keyCode === 27) {
     	modalProjectOrderEl.classList.add('close');
-    	body.classList.toggle('no-scroll');
+    	body.classList.remove('no-scroll');
       projectForm.reset();
     }
 }); 
