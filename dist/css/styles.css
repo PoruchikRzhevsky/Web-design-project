@@ -1763,7 +1763,7 @@ button.swiper-pagination-bullet {
   height: 32px;
   margin-top: 6px;
   margin-left: 3px;
-  transition: all .2s;
+  transition: transform .2s;
   background-image: url("../img/menuMobileButton.png");
   background-repeat: no-repeat;
   background-position: center;
